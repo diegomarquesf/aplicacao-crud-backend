@@ -1,0 +1,12 @@
+  spring:
+  
+    datasource:
+      url: "jdbc:postgresql://localhost:5432/aplicacao_curso"
+      username: postgres
+      password: 
+      driverClassName: org.postgresql.Driver
+    jpa:
+      database: POSTGRESQL
+      show-sql: true
+      hibernate:
+       ddl-auto: create
